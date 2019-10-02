@@ -215,10 +215,25 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 960px){
 
 }
 @media only screen and (max-width: 768px){
+  nav{
+    margin-right: 5%;
+  }
+  #masthead{
+    width: 100%;
+    margin-left: 0%;
+  }
+  #logo{
+    margin-left: 2%;
+  }
+  .main-section{
+    margin: 1% 2% 40px 2%;
+    width: 96%;
+    padding: 10px;
+  }
 
 }
 @media only screen and (max-width: 640px){
