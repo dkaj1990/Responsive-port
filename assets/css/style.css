@@ -267,5 +267,9 @@ input[type=submit] {
     width: 96%;
     margin: 1% 2% 40px 2%;
   }
+  .work{
+    width: 96%;
+    margin: 20px 2% 25px 2%;
+  }
 }
 
