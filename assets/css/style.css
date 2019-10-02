@@ -215,7 +215,20 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 980px){
+  #masthead{
+    width:100%;
+  }
+  nav{
+    margin-right: 5%;
+  }
+  .main-section{
+    margin: 1% 2% 40px 2%;
+    width: 96%;
+    padding: 10px;
+  }
+
+
 
 }
 @media only screen and (max-width: 768px){
