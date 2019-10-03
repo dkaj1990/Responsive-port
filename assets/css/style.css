@@ -217,7 +217,10 @@ input[type=submit] {
 }
 @media only screen and (max-width: 980px){
   #masthead{
-    width:100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
   }
   nav{
     margin-right: 5%;
@@ -237,7 +240,9 @@ input[type=submit] {
   }
   #masthead{
     width: 100%;
-    margin-left: 0%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
   }
   #logo{
     margin-left: 2%;
@@ -254,8 +259,13 @@ input[type=submit] {
 
 }
 @media only screen and (max-width: 640px){
+  body{
+    text-decoration: none;
+  }
   #logo{
     width: 100%;
+    position: relative;
+    margin-left:0px;
   }
   nav{
     width: 100%;
@@ -267,7 +277,7 @@ input[type=submit] {
     padding-top: 160px; 
   }
   .main-section{
-    padding: 10px;
+    padding: 30px;
     width: 96%;
     margin: 1% 2% 40px 2%;
   }
@@ -275,5 +285,16 @@ input[type=submit] {
     width: 96%;
     margin: 20px 2% 25px 2%;
   }
+  #masthead{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  form{
+    width: 96%;
+    list-style-type: none;
+    text-decoration: none;  
+  }
+
 }
 
